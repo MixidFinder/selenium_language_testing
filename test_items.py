@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 
-def test_add_to_cart(browser):
+def test_add_to_cart_btn(browser):
     browser.get(link)
 
     time.sleep(30)
