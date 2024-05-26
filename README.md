@@ -14,3 +14,14 @@ python -m venv .venv
 ```bash
 pip install -r requirements.txt
 ```
+
+# Использование
+Запуск по умолчанию с `ru` языком:  
+```bash
+pytest
+```
+
+Параметризированный запуск:  
+```bash
+pytest --language=es
+```
